@@ -410,3 +410,33 @@ main{overflow:hidden}
 .articleSection details[open] > summary{
   color:#46663c;
 }
+
+/* v22: hero copy follows the former site's wording and stronger hierarchy */
+.oldHero .heroLead{
+  font-size:46px;
+  line-height:1.5;
+  margin:0 auto 24px;
+  max-width:980px;
+}
+.oldHero .heroDesc{
+  font-size:15px;
+  line-height:2;
+  margin:0 auto 18px;
+  max-width:680px;
+}
+.oldHero .heroSub{
+  font-size:14px;
+  line-height:1.9;
+  margin:0 auto 18px;
+  max-width:680px;
+  color:#4f7040;
+}
+.oldHero .coop{
+  font-size:11px;
+  opacity:.78;
+}
+@media(max-width:850px){
+  .oldHero .heroLead{font-size:31px;line-height:1.55}
+  .oldHero .heroDesc{font-size:13px}
+  .oldHero .heroSub{font-size:12px}
+}
