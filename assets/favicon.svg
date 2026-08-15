@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="t">
+<title id="t">あたらしいこえ ロゴ</title>
+<g fill="none" stroke="#5f8747" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M38 137c-19-16-27-43-21-68C25 37 52 17 84 17"/>
+  <path d="M44 137c30 18 66 13 89-10"/>
+  <path d="M42 129c21-5 36-17 45-35"/>
+  <path d="M91 130c8-19 20-34 38-44"/>
+  <path d="M102 120c10 1 18-3 24-11"/>
+  <path d="M112 109c9 0 16-4 20-11"/>
+  <path d="M54 100c8-13 20-20 34-20 6-12 18-18 31-16-7 7-9 14-6 22-11 16-30 21-48 14-4 9-11 15-21 18"/>
+  <path d="M63 102c8 3 16 4 24 1"/>
+  <path d="M83 82c4 2 7 5 9 9"/>
+  <circle cx="101" cy="75" r="1.8" fill="#5f8747" stroke="none"/>
+</g>
+<g>
+  <ellipse cx="104" cy="34" rx="5" ry="10" fill="#e9c84d" transform="rotate(25 104 34)"/>
+  <ellipse cx="121" cy="47" rx="5" ry="10" fill="#83b7c9" transform="rotate(35 121 47)"/>
+  <ellipse cx="93" cy="51" rx="4.5" ry="9" fill="#9dbb78" transform="rotate(-20 93 51)"/>
+  <ellipse cx="111" cy="58" rx="4.5" ry="9" fill="#b9cf88" transform="rotate(20 111 58)"/>
+  <ellipse cx="132" cy="34" rx="4.5" ry="9" fill="#f2d76c" transform="rotate(35 132 34)"/>
+</g>
+</svg>
