@@ -441,124 +441,36 @@ main{overflow:hidden}
   .oldHero .heroSub{font-size:12px}
 }
 
+
 /* =========================
-   PICK UP
+   PICK UP LIST PAGE
    ========================= */
-.pickup{
-  max-width:1160px;
-  margin:auto;
-  padding:38px 34px 34px;
-}
-.pickupTitle{
-  text-align:center;
-  font-family:"Yu Mincho","Hiragino Mincho ProN",serif;
-  color:#5c7f49;
-  font-size:25px;
-  letter-spacing:.12em;
-  margin-bottom:6px;
-}
-.pickupLead{
-  margin:0 0 20px;
-  text-align:center;
-  color:#555d55;
-  font-size:12px;
-  line-height:1.8;
-}
-.pickupGrid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:22px;
-}
-.pickupCard{
-  display:block;
-  overflow:hidden;
-  background:#fff;
-  border:1px solid #e8e4da;
-  border-radius:8px;
-  box-shadow:0 3px 10px rgba(68,76,61,.04);
-  transition:transform .22s ease, box-shadow .22s ease;
-}
-.pickupCard:hover{
-  transform:translateY(-2px);
-  box-shadow:0 7px 18px rgba(68,76,61,.09);
-}
-.pickupPhoto{
-  display:block;
-  width:100%;
-  height:188px;
-  object-fit:cover;
-}
-.pickupCaption{
-  position:relative;
-  min-height:72px;
-  display:flex;
-  align-items:center;
-  padding:12px 45px 12px 15px;
-}
-.pickupCaption h3{
-  margin:0;
-  color:#343834;
-  font-size:13px;
- /* font-weight:600;*/
-  line-height:1.65;
-}
-.pickupChev{
-  position:absolute;
-  right:14px;
-  top:50%;
-  transform:translateY(-50%);
-  width:25px;
-  height:25px;
-  border:1px solid #6d8c59;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#5b7d48;
-  font-size:20px;
-  font-family:Arial,sans-serif;
-  line-height:1;
-}
-.pickupMore{
-  margin-top:18px;
-  text-align:center;
-}
-.pickupMore a{
-  color:#587848;
-  font-size:12px;
-  letter-spacing:.03em;
-}
-.pickupMore a span{
-  margin-left:7px;
-  font-size:18px;
-  vertical-align:-1px;
-}
+.pickupHero{padding:52px 28px 42px;text-align:center;background:linear-gradient(120deg,#f6faef 0%,#fffdf8 100%);border-top:1px solid #f2f1eb;border-bottom:1px solid #eeece4}
+.pickupHeroInner{max-width:900px;margin:auto}
+.pickupHero .eyebrow{margin:0 0 8px;color:#6f8b5e;font-size:11px;font-weight:700;letter-spacing:.14em}
+.pickupHero h1{margin:0;font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-size:36px;font-weight:500;letter-spacing:.10em;color:#4f7040}
+.pickupHero .heroLine{display:block;width:44px;margin:16px auto;border-top:2px solid #97ad82}
+.pickupHero p{margin:0;color:#687168;font-size:13px;line-height:2}
+
+.pickupArchive{max-width:1160px;margin:auto;padding:34px 34px 60px}
+.pickupArchive .breadcrumb{margin-bottom:24px}
+.pickupArchiveGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px 22px}
+.pickupArchiveCard{display:block;overflow:hidden;background:#fff;border:1px solid #e8e4da;border-radius:8px;box-shadow:0 3px 10px rgba(68,76,61,.04);transition:transform .22s ease,box-shadow .22s ease}
+.pickupArchiveCard:hover{transform:translateY(-2px);box-shadow:0 7px 18px rgba(68,76,61,.09)}
+.pickupArchiveCard img{display:block;width:100%;height:188px;object-fit:cover}
+.pickupArchiveMeta{padding:12px 15px 0;color:#789168;font-size:10px;letter-spacing:.05em}
+.pickupArchiveBody{position:relative;min-height:88px;padding:8px 45px 16px 15px}
+.pickupArchiveBody h2{margin:0;font-family:"Yu Mincho","Hiragino Mincho ProN",serif;color:#343834;font-size:15px;font-weight:600;line-height:1.7}
+.pickupChev{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:25px;height:25px;border:1px solid #6d8c59;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#5b7d48;font-size:20px;font-family:Arial,sans-serif;line-height:1}
+.pickupArchiveNote{margin-top:30px;padding:18px 20px;border:1px solid #e6eadf;border-radius:10px;background:#f8faf5;color:#697268;font-size:11px;line-height:1.9}
 
 @media(max-width:850px){
-  .pickup{
-    padding:34px 18px 30px;
-  }
-  .pickupTitle{
-    font-size:22px;
-  }
-  .pickupLead{
-    font-size:11px;
-    margin-bottom:16px;
-  }
-  .pickupGrid{
-    grid-template-columns:1fr;
-    gap:18px;
-  }
-  .pickupPhoto{
-    height:auto;
-    aspect-ratio:1.8 / 1;
-  }
-  .pickupCaption{
-    min-height:64px;
-    padding:11px 42px 11px 14px;
-  }
-  .pickupCaption h3{
-    font-size:13px;
-  }
+  .pickupHero{padding:42px 18px 36px}
+  .pickupHero h1{font-size:30px}
+  .pickupHero p{font-size:12px}
+  .pickupArchive{padding:26px 18px 46px}
+  .pickupArchiveGrid{grid-template-columns:1fr;gap:18px}
+  .pickupArchiveCard img{height:auto;aspect-ratio:1.8/1}
+  .pickupArchiveBody{min-height:auto}
+  .pickupArchiveBody h2{font-size:14px}
 }
-
