@@ -440,3 +440,125 @@ main{overflow:hidden}
   .oldHero .heroDesc{font-size:13px}
   .oldHero .heroSub{font-size:12px}
 }
+
+/* =========================
+   PICK UP
+   ========================= */
+.pickup{
+  max-width:1160px;
+  margin:auto;
+  padding:38px 34px 34px;
+}
+.pickupTitle{
+  text-align:center;
+  font-family:"Yu Mincho","Hiragino Mincho ProN",serif;
+  color:#5c7f49;
+  font-size:25px;
+  letter-spacing:.12em;
+  margin-bottom:6px;
+}
+.pickupLead{
+  margin:0 0 20px;
+  text-align:center;
+  color:#555d55;
+  font-size:12px;
+  line-height:1.8;
+}
+.pickupGrid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+.pickupCard{
+  display:block;
+  overflow:hidden;
+  background:#fff;
+  border:1px solid #e8e4da;
+  border-radius:8px;
+  box-shadow:0 3px 10px rgba(68,76,61,.04);
+  transition:transform .22s ease, box-shadow .22s ease;
+}
+.pickupCard:hover{
+  transform:translateY(-2px);
+  box-shadow:0 7px 18px rgba(68,76,61,.09);
+}
+.pickupPhoto{
+  display:block;
+  width:100%;
+  height:188px;
+  object-fit:cover;
+}
+.pickupCaption{
+  position:relative;
+  min-height:72px;
+  display:flex;
+  align-items:center;
+  padding:12px 45px 12px 15px;
+}
+.pickupCaption h3{
+  margin:0;
+  color:#343834;
+  font-size:13px;
+ /* font-weight:600;*/
+  line-height:1.65;
+}
+.pickupChev{
+  position:absolute;
+  right:14px;
+  top:50%;
+  transform:translateY(-50%);
+  width:25px;
+  height:25px;
+  border:1px solid #6d8c59;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#5b7d48;
+  font-size:20px;
+  font-family:Arial,sans-serif;
+  line-height:1;
+}
+.pickupMore{
+  margin-top:18px;
+  text-align:center;
+}
+.pickupMore a{
+  color:#587848;
+  font-size:12px;
+  letter-spacing:.03em;
+}
+.pickupMore a span{
+  margin-left:7px;
+  font-size:18px;
+  vertical-align:-1px;
+}
+
+@media(max-width:850px){
+  .pickup{
+    padding:34px 18px 30px;
+  }
+  .pickupTitle{
+    font-size:22px;
+  }
+  .pickupLead{
+    font-size:11px;
+    margin-bottom:16px;
+  }
+  .pickupGrid{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+  .pickupPhoto{
+    height:auto;
+    aspect-ratio:1.8 / 1;
+  }
+  .pickupCaption{
+    min-height:64px;
+    padding:11px 42px 11px 14px;
+  }
+  .pickupCaption h3{
+    font-size:13px;
+  }
+}
+
