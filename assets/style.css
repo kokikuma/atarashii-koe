@@ -1496,3 +1496,152 @@ main{overflow:hidden}
   transform:scale(.78);
   transform-origin:center center;
 }
+
+/* TOP PICK UP：さらにコンパクトに（強めの上書き） */
+.pickup.pickupHomeNew{
+  padding:18px 0 20px !important;
+}
+
+.pickup.pickupHomeNew .pickupTitle{
+  margin:0 0 10px !important;
+  padding:0 !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeInner{
+  align-items:center !important;
+  gap:32px !important;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+}
+
+.pickup.pickupHomeNew .pickupFeature,
+.pickup.pickupHomeNew .pickupFeaturePhotoOnly{
+  align-self:center !important;
+  margin:0 !important;
+}
+
+.pickup.pickupHomeNew .pickupFeaturePhotoOnly img{
+  display:block !important;
+  width:100% !important;
+  height:190px !important;
+  max-height:190px !important;
+  object-fit:cover !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeContent{
+  padding:0 !important;
+  margin:0 !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeHeading{
+  margin:0 0 6px !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeHeading h2{
+  margin:0 0 2px !important;
+  line-height:1.35 !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeHeading p{
+  margin:0 !important;
+  line-height:1.45 !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeList{
+  margin-top:6px !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeList a{
+  min-height:0 !important;
+  padding:5px 2px !important;
+  line-height:1.35 !important;
+}
+
+.pickup.pickupHomeNew .pickupMore{
+  margin:6px 0 0 !important;
+  padding:0 !important;
+}
+
+@media(max-width:760px){
+  .pickup.pickupHomeNew{
+    padding:16px 0 18px !important;
+  }
+
+  .pickup.pickupHomeNew .pickupFeaturePhotoOnly img{
+    height:auto !important;
+    max-height:none !important;
+  }
+}
+
+
+/* TOP PICK UP：左右バランス＋余白を戻した調整版 */
+.pickup.pickupHomeNew{
+  padding:28px 0 32px !important;
+}
+
+.pickup.pickupHomeNew .pickupTitle{
+  margin:0 0 18px !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeInner{
+  grid-template-columns:38% minmax(0,1fr) !important;
+  gap:46px !important;
+  align-items:center !important;
+}
+
+.pickup.pickupHomeNew .pickupFeature,
+.pickup.pickupHomeNew .pickupFeaturePhotoOnly{
+  align-self:center !important;
+  margin:0 !important;
+}
+
+.pickup.pickupHomeNew .pickupFeaturePhotoOnly img{
+  width:100% !important;
+  height:225px !important;
+  max-height:225px !important;
+  object-fit:cover !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeHeading{
+  margin:0 0 12px !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeHeading h2{
+  margin:0 0 5px !important;
+  line-height:1.45 !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeHeading p{
+  margin:0 !important;
+  line-height:1.65 !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeList{
+  margin-top:10px !important;
+}
+
+.pickup.pickupHomeNew .pickupHomeList a{
+  min-height:0 !important;
+  padding:8px 3px !important;
+  line-height:1.45 !important;
+}
+
+.pickup.pickupHomeNew .pickupMore{
+  margin:12px 0 0 !important;
+}
+
+@media(max-width:760px){
+  .pickup.pickupHomeNew{
+    padding:24px 0 28px !important;
+  }
+
+  .pickup.pickupHomeNew .pickupHomeInner{
+    grid-template-columns:1fr !important;
+    gap:22px !important;
+  }
+
+  .pickup.pickupHomeNew .pickupFeaturePhotoOnly img{
+    height:auto !important;
+    max-height:none !important;
+  }
+}
